@@ -10,6 +10,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind and deisy -->
 
+    <link rel="stylesheet" href="index.css">
+
 
 
     <!-- custom color  -->
@@ -42,7 +44,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
     <!-- font name -->
     <style>
-        .man-rope{
+        .man-rope {
             font-family: 'Manrope', sans-serif;
         }
     </style>
@@ -90,53 +92,59 @@
 
         </nav>
 
-            <section class="container mx-auto mt-12">
-                <div class="carousel w-full lg:h-[550px]">
-                    <div id="slide1" class="carousel-item relative w-full">
-                      <img src="img/1.png" class="w-full" />
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a> 
+        <section class="container relative mx-auto mt-12">
+            <div class="carousel w-full lg:h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="img/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
-                      </div>
-                    </div> 
-                    <div id="slide2" class="carousel-item relative w-full">
-                      <img src="img/1.png" class="w-full" />
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="img/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
-                      </div>
-                    </div> 
-                    <div id="slide3" class="carousel-item relative w-full">
-                      <img src="img/1.png" class="w-full" />
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a> 
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="img/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
-                      </div>
-                    </div> 
-                    
-                  </div>
+                    </div>
+                </div>
 
-            </section>
-
-            <div class=" mx-3 bg-black text-white rounded-xl p-7 lg:w-1/3 relative lg:-top-48 lg:left-2/4 lg:ml-28">
-                <h2 class="text-xl font-bold">Meet all the heroes from the field</h2>
-                <p class="mt-4">Hockey is a fast-paced and exhilarating team sport played on an ice rink</p>
             </div>
 
-           
+        </section>
+
+        <div class="hidden lg:inline-block bg-black text-white rounded-xl p-7  absolute bottom-0 right-24">
+            <h2 class="text-xl font-bold">Meet all the heroes from the field</h2>
+            <p class="mt-4">Hockey is a fast-paced and exhilarating team sport played on an ice rink</p>
+        </div>
+
+        <div class="lg:hidden bg-black text-white rounded-xl p-7  ">
+            <h2 class="text-xl font-bold">Meet all the heroes from the field</h2>
+            <p class="mt-4">Hockey is a fast-paced and exhilarating team sport played on an ice rink</p>
+        </div>
+
+
     </header>
     <main class="container mx-auto mt-0">
-       
+
 
         <section>
             <div class="space-y-6">
                 <div class="divider"></div>
                 <h2 class="text-4xl font-extrabold text-center">Professional Hockeys Club</h2>
-                <p class="text-center w-2/5 mx-auto">The game is known for its speed, physicality, and strategic gameplay to teammates, and attempt to outmaneuver</p>
+                <p class="text-center w-2/5 mx-auto">The game is known for its speed, physicality, and strategic
+                    gameplay to teammates, and attempt to outmaneuver</p>
                 <div class="divider"></div>
             </div>
-            
-                
+
+
             <div class="flex flex-col lg:flex-row justify-around mt-12">
                 <div class="flex flex-col items-center justify-center">
                     <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
@@ -159,6 +167,59 @@
                     <p class="w-[250px] text-center">Players use sticks to control the puck pass</p>
                 </div>
 
+            </div>
+        </section>
+
+
+
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-20">
+            <div
+                class="lg:h-[45vh] bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img/2.png)] bg-cover bg-center bg-no-repeat w-full rounded-xl py-6 pl-7 pr-7">
+                <div class="flex flex-col pt-5">
+                    <h1 class="mb-5 text-2xl text-white font-bold text-left">Junior Program</h1>
+                    <p class="mb-5 text-white text-left w-[500px]">Cupiditate voluptatem et in. Quaerat fugiat ut
+                        assumenda
+                        excepturi exercitationem quasi. In deleniti eaque aut repudiandae</p>
+                    <button class="btn btn-primary bg-primary border-none text-white w-40">Register
+                        Now!</button>
+                </div>
+            </div>
+
+            <div
+                class="lg:h-[45vh] bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img/3.png)] bg-cover bg-center bg-no-repeat w-full rounded-xl py-6 pl-7 pr-7">
+                <div class="flex flex-col pt-5">
+                    <h1 class="mb-5 text-2xl text-white font-bold text-left">Teenager Program</h1>
+                    <p class="mb-5 text-white text-left w-[500px]">Cupiditate voluptatem et in. Quaerat fugiat ut
+                        assumenda
+                        excepturi exercitationem quasi. In deleniti eaque aut repudiandae</p>
+                    <button class="btn btn-primary bg-primary border-none text-white w-40">Register
+                        Now!</button>
+                </div>
+            </div>
+
+            <div
+                class=" lg:col-span-2 lg:h-[45vh] bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img/4.png)] bg-cover bg-center bg-no-repeat w-full rounded-xl py-6 pl-7 pr-7">
+
+                <div class="flex flex-col pt-20">
+                    <h1 class="mb-5 text-2xl text-white font-bold text-left">Professional Program</h1>
+                    <p class="mb-5 text-white text-left w-[500px]">Cupiditate voluptatem et in. Quaerat fugiat ut
+                        assumenda
+                        excepturi exercitationem quasi. In deleniti eaque aut repudiandae</p>
+                    <button class="btn btn-primary bg-primary border-none text-white w-40">Register
+                        Now!</button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section>
+            <div class="space-y-6 mt-20">
+                <div class="divider"></div>
+                <h2 class="text-4xl font-extrabold text-center">Professional Hockeys Club</h2>
+                <p class="text-center w-2/5 mx-auto">The game is known for its speed, physicality, and strategic
+                    gameplay to teammates, and attempt to outmaneuver</p>
+                <div class="divider"></div>
             </div>
         </section>
 
